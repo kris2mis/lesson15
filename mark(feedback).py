@@ -37,4 +37,3 @@ if __name__ == "__main__":
     assert get_feedback(7) == "good"
     assert get_feedback(8) == "good"
     assert get_feedback(9) == "Excellent!"
-
