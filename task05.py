@@ -2,7 +2,9 @@ WINTER_SEASON = "winter"
 
 
 def find_season(month):
-    if not isinstance(month, int) or not (1 <= month <= 12):
+    if (isinstance(month, bool)
+            or not isinstance(month, int)
+            or not (1 <= month <= 12)):
         return -1
 
     season = "spring"
